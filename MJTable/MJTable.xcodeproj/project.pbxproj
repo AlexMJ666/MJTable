@@ -15,6 +15,8 @@
 		04DF92D01FBC18E400E4EFA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF92CF1FBC18E400E4EFA2 /* main.m */; };
 		04DF92DA1FBC18E400E4EFA2 /* MJTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF92D91FBC18E400E4EFA2 /* MJTableTests.m */; };
 		04DF92E51FBC18E400E4EFA2 /* MJTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF92E41FBC18E400E4EFA2 /* MJTableUITests.m */; };
+		04DF92F41FBC1ACE00E4EFA2 /* MJTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DF92F31FBC1ACE00E4EFA2 /* MJTable.m */; };
+		04DF92F61FBC24A900E4EFA2 /* timg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04DF92F51FBC24A900E4EFA2 /* timg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		04DF92E01FBC18E400E4EFA2 /* MJTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MJTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DF92E41FBC18E400E4EFA2 /* MJTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTableUITests.m; sourceTree = "<group>"; };
 		04DF92E61FBC18E400E4EFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DF92F21FBC1ACE00E4EFA2 /* MJTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJTable.h; sourceTree = "<group>"; };
+		04DF92F31FBC1ACE00E4EFA2 /* MJTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJTable.m; sourceTree = "<group>"; };
+		04DF92F51FBC24A900E4EFA2 /* timg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		04DF92BF1FBC18E400E4EFA2 /* MJTable */ = {
 			isa = PBXGroup;
 			children = (
+				04DF92F51FBC24A900E4EFA2 /* timg.jpg */,
 				04DF92C01FBC18E400E4EFA2 /* AppDelegate.h */,
 				04DF92C11FBC18E400E4EFA2 /* AppDelegate.m */,
 				04DF92C31FBC18E400E4EFA2 /* ViewController.h */,
 				04DF92C41FBC18E400E4EFA2 /* ViewController.m */,
+				04DF92F21FBC1ACE00E4EFA2 /* MJTable.h */,
+				04DF92F31FBC1ACE00E4EFA2 /* MJTable.m */,
 				04DF92C61FBC18E400E4EFA2 /* Main.storyboard */,
 				04DF92C91FBC18E400E4EFA2 /* Assets.xcassets */,
 				04DF92CB1FBC18E400E4EFA2 /* LaunchScreen.storyboard */,
@@ -238,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DF92F61FBC24A900E4EFA2 /* timg.jpg in Resources */,
 				04DF92CD1FBC18E400E4EFA2 /* LaunchScreen.storyboard in Resources */,
 				04DF92CA1FBC18E400E4EFA2 /* Assets.xcassets in Resources */,
 				04DF92C81FBC18E400E4EFA2 /* Main.storyboard in Resources */,
@@ -268,6 +277,7 @@
 				04DF92C51FBC18E400E4EFA2 /* ViewController.m in Sources */,
 				04DF92D01FBC18E400E4EFA2 /* main.m in Sources */,
 				04DF92C21FBC18E400E4EFA2 /* AppDelegate.m in Sources */,
+				04DF92F41FBC1ACE00E4EFA2 /* MJTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
